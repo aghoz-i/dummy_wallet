@@ -39,7 +39,9 @@ SECRET_KEY = 'django-insecure-si+p!597u0vnx-dxh$li9ws3co$^y78dr0m*+0fzv0-&($q+-z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'dummy-wallet-api.fly.dev',
+]
 
 
 # Application definition
