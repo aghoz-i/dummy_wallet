@@ -41,6 +41,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'dummy-wallet-api.fly.dev',
+    '127.0.0.1',
+    'localhost',
 ]
 
 
